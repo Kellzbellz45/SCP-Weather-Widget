@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SCP - Kelly Faria's Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Raleway:wght@400;700&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body class="document">
+    <div class="container">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <form class="row g-3" id="city-form">
+            <div class="col-1"></div>
+            <div class="col-4">
+              <input
+                type="text"
+                class="form-control"
+                id="input-city"
+                placeholder="🔍   Enter City"
+              />
+            </div>
+            <div class="col-2">
+              <button type="submit" class="submitButton">
+                <strong>Search</strong>
+              </button>
+            </div>
+            <div class="col-4">
+              <button type="current" class="currnetlocationButton">
+                <strong>Current Location</strong>
+              </button>
+            </div>
+          </form>
+
+          <div class="card" id="card-2" style="width: 40rem;">
+            <div class="card-body-2">
+              <div class="row">
+                <div class="col">
+                  <h3><strong>Currently</strong></h3>
+                </div>
+                <div class="col">
+                  <h4 class="humidity">Humidity: %</h4>
+                  <h4 class="wind">Wind: 1km/h</h4>
+                </div>
+                <div class="col">
+                  <h4 class="time" id="time-date">Tuesday 1:00</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-5">
+                <h1>0°C</h1>
+              </div>
+              <div class="col">
+                <h2>Toronto</h2>
+              </div>
+              <div class="col" id="current-weather">
+                <h3></h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3 class="mon">Mon</h3>
+            </div>
+            <div class="col">
+              <h3 class="tues">Tues</h3>
+            </div>
+            <div class="col">
+              <h3 class="wed">Wed</h3>
+            </div>
+            <div class="col">
+              <h3 class="thurs">Thurs</h3>
+            </div>
+            <div class="col">
+              <h3 class="fri">Fri</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <h2 class="emoji-monday">☀️</h2>
+            </div>
+            <div class="col">
+              <h2 class="emoji">🌤</h2>
+            </div>
+            <div class="col">
+              <h2 class="emoji">❄️</h2>
+            </div>
+            <div class="col">
+              <h2 class="emoji-thursday">🌧</h2>
+            </div>
+            <div class="col">
+              <h2 class="emoji-friday">🌤</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <h2 class="temperature-mon">18</h2>
+            </div>
+            <div class="col">
+              <h2 class="Temperature-tues">15</h2>
+            </div>
+            <div class="col">
+              <h2 class="Temperature">-5</h2>
+            </div>
+            <div class="col">
+              <h2 class="Temperature-thurs">10</h2>
+            </div>
+            <div class="col">
+              <h2 class="Temperature-fri">19</h2>
+            </div>
+          </div>
+          <br />
+          <div>
+            <h4 class="today-tip">
+              Today's Tip: Leave the sweater at home! 🥵
+            </h4>
+          </div>
+          </div>
+          <script src="src/java.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

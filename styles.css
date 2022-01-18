@@ -1,0 +1,251 @@
+.document {
+  background-color: #59bdb3;
+}
+
+.container {
+  background: ffff;
+}
+
+.card {
+  margin-top: 50px;
+  margin-left: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px auto;
+  filter: drop-shadow(0 0 0.4rem #8a9490);
+  border-radius: 20px;
+}
+
+#card-2 {
+  margin-top: 40px;
+  margin-left: 62px;
+  margin-bottom: 10px;
+  background-color: #c3f0fa;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  filter: drop-shadow(0 0 0.1rem #c5d1cf);
+}
+
+.humidity {
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+.timeDate {
+  padding-top: 45px;
+  padding-left: 0px;
+}
+
+.wind {
+  padding: 38px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.rowg-3 {
+  margin-top: 20px;
+  margin: 80px;
+}
+
+.submitButton {
+  background-color: #59bdb3;
+  color: #ffff;
+  margin-top: -1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border-color: #22978c;
+  transition-duration: 0.4s;
+
+  font-size: 18px;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.submitButton:hover {
+  background-color: #22978c;
+}
+
+.currnetlocationButton {
+  display: block;
+  background-color: #ffff;
+  color: #22978c;
+  border-color: #22978c;
+  margin-left: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border-color: #22978c;
+  transition-duration: 0.4s;
+
+  font-size: 18px;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.currnetlocationButton:hover {
+  background-color: #22978c;
+  color: #ffffff;
+}
+
+h1 {
+  padding-left: 50px;
+  margin-right: 0 auto;
+  font-size: 100px;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+h2 {
+  text-transform: capitalize;
+  padding-top: 40px;
+  padding-left: 0;
+  top: 200px;
+  font-size: 30px;
+  color: #137067;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900px;
+}
+
+#current-weather {
+  text-transform: capitalize;
+  padding-top: 40px;
+  padding-left: 30;
+  top: 100px;
+  font-size: 20px;
+  color: #137067;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700px;
+}
+
+h3 {
+  font-size: 24px;
+  padding-left: 75px;
+  padding-top: 40px;
+  color: #137067;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+h4 {
+  padding-left: 0px;
+  padding-top: 40px;
+  font-size: 14px;
+  color: #137067;
+
+  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.tues,
+.wed {
+  font-size: 24px;
+  padding-left: 40px;
+  padding-top: 40px;
+  color: #137067;
+}
+
+.mon {
+  font-size: 24px;
+  padding-left: 64px;
+  padding-top: 40px;
+  color: #137067;
+}
+
+.thurs {
+  font-size: 24px;
+  padding-left: 25px;
+  padding-top: 40px;
+  color: #137067;
+}
+
+.fri {
+  font-size: 24px;
+  padding-left: 30px;
+  padding-top: 40px;
+  color: #137067;
+}
+
+.emoji-monday {
+  font-size: 50px;
+  padding-left: 60px;
+  padding-top: 0px;
+}
+
+.emoji {
+  font-size: 50px;
+  padding-left: 40px;
+  padding-top: 0px;
+}
+
+.emoji-thursday {
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.emoji-friday {
+  font-size: 50px;
+  padding-left: 18px;
+  padding-top: 0px;
+}
+
+.Temperature {
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.temperature-mon {
+  font-size: 50px;
+  padding-left: 60px;
+  padding-top: 0px;
+}
+
+.Temperature-tues {
+  font-size: 50px;
+  padding-left: 43px;
+  padding-top: 0px;
+}
+
+.Temperature-thurs {
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.Temperature-fri {
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.today-tip {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
